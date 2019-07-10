@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 
+import PhotoDisplay from './components/PhotoDisplay/PhotoDisplay.js'
+
 function App() {
   return (
     <div className="App">
@@ -8,6 +10,7 @@ function App() {
         Read through the instructions in the README.md file to build your NASA
         app! Have fun 🚀!
       </p>
+      <PhotoDisplay />
     </div>
   );
 }
